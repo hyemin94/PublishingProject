@@ -2,5 +2,21 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 body{font-family: "Note sans KR", sans-serif !important;}
 
-header{height: 75px;background-color: #006F84;border: 1px solid #253342; position: fixed; width: 100%;z-index: 9999; top: 0;left: 0;}
-h1{color: white;line-height: 75px;}
+ul{
+    display: inline;
+    border: 10px;
+    padding: 10px;
+    font-weight: 96px;
+    color: black;
+    list-style-type : none;
+    overflow: hidden;
+}
+
+li {float: left;}
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
