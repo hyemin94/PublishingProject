@@ -1,22 +1,19 @@
 @charset "UTF-8";
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-body{font-family: "Note sans KR", sans-serif !important;}
+body{font-family: "Note sans KR", sans-serif !important; margin: 0;}
 
-ul{
-    display: inline;
-    border: 10px;
-    padding: 10px;
-    font-weight: 96px;
-    color: black;
-    list-style-type : none;
-    overflow: hidden;
-}
+#header{width: 1725px; height: 80px; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
+.logo{float: left; margin-top: 15px;}
+.logo img {width: 150px;}
+.menu{float: left; margin-top: 20px;}
+.menu li{list-style: none; float: left;}
+.menu li a{display: block; padding: 10px 15px 90px; color: #000000; text-decoration: none;}
+.menu li a:hover{color: #1f58e4; text-decoration: none;}
 
-li {float: left;}
-li a {
-    display: block;
-    padding: 8px;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-}
+.login a{margin-top: 20px; list-style: none; display:block; float:right; 
+        text-decoration: none; color: #000000; padding: 10px 15px; text-decoration: none;}
+.login a:hover{color: #1f58e4; text-decoration: none;}
+
+#container{width: 100%;}
+#content {width: 100%; background-color: #0000CC;}
+.content_area {width: 1725px; height: 440px; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;color: white;}
