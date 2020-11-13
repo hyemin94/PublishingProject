@@ -11,9 +11,10 @@ body{font-family: "Note sans KR", sans-serif !important; margin: 0;}
 .menu li a:hover{color: #1f58e4; text-decoration: none;}
 
 .login a{margin-top: 20px; list-style: none; display:block; float:right; 
-        text-decoration: none; color: #000000; padding: 10px 15px; text-decoration: none;}
+         color: #000000; padding: 10px 15px; text-decoration: none;}
 .login a:hover{color: #1f58e4; text-decoration: none;}
 
 #container{width: 100%;}
 #content {width: 100%; background-color: #0000CC;}
-.content_area {width: 1725px; height: 440px; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;color: white;}
+.content_area {width: 1725px; text-decoration: none; height: 440px; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;color: white;}
+.content_area a {width: 250px; text-decoration: none; color: white;}
