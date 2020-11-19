@@ -2,7 +2,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 body{font-family: "Note sans KR", sans-serif !important; margin: 0;}
 
-#header{width: 1725px; height: 80px; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
+#header{width: 90%; height: 80px; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto; overflow: hidden;}
 .logo{float: left; margin-top: 15px;}
 .logo img {width: 150px;}
 .menu{float: left; margin-top: 20px;}
@@ -16,5 +16,13 @@ body{font-family: "Note sans KR", sans-serif !important; margin: 0;}
 
 #container{width: 100%;}
 #content {width: 100%; background-color: #0000CC;}
-.content_area {width: 1725px; text-decoration: none; height: 440px; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;color: white;}
-.content_area a {width: 250px; text-decoration: none; color: white;}
+.content_area {width: 90%; height: 440px; text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
+.content_area p {text-align:left; color: white;}
+.content_area p.text1{padding-top :50px; font-size : 25px;}
+.content_area p.text2{margin-top:35px; margin-bottom:175px; font-size: 60px; font-style: bold;}
+.content_area p.button a{font-size: 28px; text-decoration: none; color: white;}
+
+#content2 {width: 90%; height: 440px; text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;height : 1380px; background-color: #eeeeee;}
+
+.block_area_1 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
+.block_area_1 h3.span{padding-left: 15px; font-size: 14px;}
