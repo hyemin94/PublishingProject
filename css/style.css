@@ -22,7 +22,40 @@ body{font-family: "Note sans KR", sans-serif !important; margin: 0;}
 .content_area p.text2{margin-top:35px; margin-bottom:175px; font-size: 60px; font-style: bold;}
 .content_area p.button a{font-size: 28px; text-decoration: none; color: white;}
 
-#content2 {width: 90%; height: 440px; text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;height : 1380px; background-color: #eeeeee;}
-
+#content2 {width: 100%; height: 1390px; background-color: #eeeeee;}
+.block_area_1 {width: 90%; text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
 .block_area_1 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
-.block_area_1 h3.span{padding-left: 15px; font-size: 14px;}
+.block_area_1 p{text-align: right;}
+.block_area_1 h3.span{margin-left: 15px; font-size: 14px;}
+
+.kbbox {text-decoration: none; float: left; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
+.block_area_1 li{list-style: none;}
+.block_area_1 img{margin-top: 64px; width: 207px; height: 38px;}
+
+.hsbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
+.SHbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
+.KTISbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
+.sevenelevenbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
+
+.block_area_2 {text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
+.block_area_2 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
+
+.Lottebox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
+.LGbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
+.SHBankbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
+.Hyundaibox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
+.KakaoMbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
+
+.block_area_3 h3{margin-top: 40px;}
+.lottebox1 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
+.lottebox2 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
+.lottebox3 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
+.lottebox4 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
+.block_area_3 li{list-style: none; color: white;}
+
+.block_area_4 h3{margin-top: 40px;}
+.jobbox1 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
+.jobbox2 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
+.jobbox3 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
+.jobbox4 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
+.block_area_4 li{list-style: none; color: white; background-position: center;}
