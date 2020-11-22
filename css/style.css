@@ -17,45 +17,54 @@ body{font-family: "Note sans KR", sans-serif !important; margin: 0;}
 #container{width: 100%;}
 #content {width: 100%; background-color: #0000CC;}
 .content_area {width: 90%; height: 440px; text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
-.content_area p {text-align:left; color: white;}
+.content_area p{text-align:left; color: white;}
 .content_area p.text1{padding-top :50px; font-size : 25px;}
 .content_area p.text2{margin-top:35px; margin-bottom:175px; font-size: 60px; font-style: bold;}
 .content_area p.button a{font-size: 28px; text-decoration: none; color: white;}
 
 #content2 {width: 100%; height: 1390px; background-color: #eeeeee;}
-.block_area_1 {width: 90%; text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
+.block_area_1 {position: relative; width: 90%; text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
 .block_area_1 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
-.block_area_1 p{text-align: right;}
-.block_area_1 h3.span{margin-left: 15px; font-size: 14px;}
+.block_area_1 h3 span{margin-left: 15px; font-size: 14px;}
 
-.kbbox {text-decoration: none; float: left; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
-.block_area_1 li{list-style: none;}
-.block_area_1 img{margin-top: 64px; width: 207px; height: 38px;}
+.block_area_1 li{float:left; list-style: none;}
+.block_area_1 li a{text-align: center; width: 250px; height: 100px; display: block; margin-left: 24px; padding:20px 20px; border-radius: 15px; background-color:white;}
+.block_area_1 li a span{display: block; text-align: center; font-size: 14px; }
+.block_area_1 img{width: 207px; height: 38px;}
+.block_area_1 p{position: absolute; top : 15px; right: 0;}
+.block_area_1 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff;}
 
-.hsbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
-.SHbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
-.KTISbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
-.sevenelevenbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
-
-.block_area_2 {text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
+.block_area_2{position: relative; clear: both; margin-left: 70px;}
 .block_area_2 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
+.block_area_2 p{position: absolute; top:15px; right: 10PX;}
+.block_area_2 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff; margin-right: 60px;}
 
-.Lottebox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
-.LGbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
-.SHBankbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
-.Hyundaibox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
-.KakaoMbox {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:white;}
+.block_area_2 li{float: left; list-style: none;}
+.block_area_2 li a{text-align: center; width: 250px; height: 100px; display: block; margin-left: 24px; padding:20px 20px; border-radius: 15px; background-color:white;}
+.block_area_2 li a span{display: block; text-align: center; font-size: 14px; }
+.block_area_2 img{width: 207px; height: 38px;}
 
-.block_area_3 h3{margin-top: 40px;}
-.lottebox1 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
-.lottebox2 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
-.lottebox3 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
-.lottebox4 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
-.block_area_3 li{list-style: none; color: white;}
+.block_area_3{position: relative; clear: both; margin-left: 70px;}
+.block_area_3 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
+.block_area_3 p{position: absolute; top:15px; right: 10PX;}
+.block_area_3 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff; margin-right: 60px;}
 
-.block_area_4 h3{margin-top: 40px;}
-.jobbox1 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
-.jobbox2 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
-.jobbox3 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
-.jobbox4 {text-decoration: none; float: left; margin-left: 20px; width: 295px; height: 196px; border-radius: 15px; background-color:#333333;}
-.block_area_4 li{list-style: none; color: white; background-position: center;}
+.block_area_3 li{float: left; list-style: none; width: 295px;}
+.block_area_3 li a{display: block; margin-left: 24px; padding:30px 30px; border-radius: 15px; background-color:#333333;}
+.block_area_3 span.boxText1{display: block; text-align:left; color: white; font-size: 17px; padding-bottom: 15px;}
+.block_area_3 span.boxText2{display: block; text-align:left; color: white; font-size: 22px; padding-bottom: 20px;}
+.block_area_3 span.boxText3{display: block; text-align:left; color: white; font-size: 15px;}
+
+.block_area_4{position: relative; clear: both; margin-left: 70px;}
+.block_area_4 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
+.block_area_4 p{position: absolute; top:15px; right: 10PX;}
+.block_area_4 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff; margin-right: 60px;}
+
+.block_area_4 li{float: left; list-style: none; width: 295px;}
+.block_area_4 li a{display: block; margin-left: 24px; padding:30px 30px; border-radius: 15px; background-color:#333333;}
+.block_area_4 span.boxText1{display: block; text-align:left; color: white; font-size: 17px; padding-bottom: 15px;}
+.block_area_4 span.boxText2{display: block; text-align:left; color: white; font-size: 22px; padding-bottom: 20px;}
+.block_area_4 span.boxText3{display: block; text-align:left; color: white; font-size: 15px;}
+
+.company span{position: absolute; top:15px; right: 10PX;}
+.company span.company_main{display: block; top:1665px; text-align: center; color: #ff6633; font-size: 36px;}
