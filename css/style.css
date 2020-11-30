@@ -40,7 +40,7 @@ body{font-family: "Note sans KR", sans-serif !important; margin: 0;}
 .block_area_2{position: relative; clear: both; margin-left:auto; margin-right: auto;}
 .block_area_2 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
 .block_area_2 p{position: absolute; top:15px; right: 10PX;}
-.block_area_2 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff; margin-right: 60px;}
+.block_area_2 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff;}
 
 .block_area_2 li{float: left; width:24.6%; margin-right:5px; list-style: none;}
 .block_area_2 li a{text-align: center; height: 100px; display: block; padding:20px 20px; border-radius: 15px; background-color:white;}
@@ -51,7 +51,7 @@ body{font-family: "Note sans KR", sans-serif !important; margin: 0;}
 .block_area_3{float:left; width:48%; margin-left:auto; margin-right: auto;}
 .block_area_3 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
 .block_area_3 p{position: absolute; top:15px; right: 10PX;}
-.block_area_3 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff; margin-right: 60px;}
+.block_area_3 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff; margin-top:1056px; margin-right: 785px;}
 
 .block_area_3 li{float: left; list-style: none; width: 295px; margin-bottom:18px;}
 .block_area_3 li a{display: block; margin-left: 24px; padding:30px 30px; border-radius: 15px; background-color:#333333;}
@@ -63,7 +63,7 @@ body{font-family: "Note sans KR", sans-serif !important; margin: 0;}
 .block_area_4{float:right; width:48%; margin-left:auto; margin-right: auto;}
 .block_area_4 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
 .block_area_4 p{position: absolute; top:15px; right: 10PX;}
-.block_area_4 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff; margin-right: 60px;}
+.block_area_4 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff; margin-top:1056px; margin-right: 60px;}
 
 .block_area_4 li{float: left; list-style: none; width: 295px; margin-bottom:18px;}
 .block_area_4 li a{display: block; margin-left: 24px; padding:30px 30px; border-radius: 15px; background-color:#333333;}
@@ -72,12 +72,12 @@ body{font-family: "Note sans KR", sans-serif !important; margin: 0;}
 .block_area_4 span.boxText3{display: block; text-align:left; color: white; font-size: 15px;}
 
 .company{clear: both; text-align: center;}
-.company span.company_main{padding-top: 80px;display: block; color: #ff6633; font-size: 36px; padding-bottom: 33px;}
-.company span.company_text{padding-top: 33px; padding-bottom: 33px;}
-
+.company span.company_main{padding-top: 80px;display: block; color: #ff6633; font-weight: bold; font-size: 36px; padding-bottom: 33px;}
+.company span.company_text{padding-top: 33px; font-size: 24px;}
+.company button.company_box{margin-top: 33px; margin-bottom:50px; background-color: #ff6633; border-style:none; width: 240px; height: 53px; color: white; font-weight: bold; font-size: 24px;}
 
 #container_end{width: 100%;}
-#content_end {width: 100%; background-color: #003366;}
+#content_end {background-color: #003366; height: 200px;}
 .content_end_area {width: 90%; text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
-.content_end_area p{text-align:left; color: white; font-size: 14px; padding-top: 45px; padding-bottom: 35px;}
-.content_end_area img{width: 65px; height: 65px;}
+.content_end_area p{float:left; text-align:left; color: white; font-size: 14px; padding-top: 45px; padding-bottom: 35px;}
+.content_end_area img{width: 65px; height: 65px; float: right; padding-top: 100px;}
