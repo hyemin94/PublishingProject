@@ -22,56 +22,62 @@ body{font-family: "Note sans KR", sans-serif !important; margin: 0;}
 .content_area p.text2{margin-top:35px; margin-bottom:175px; font-size: 60px; font-style: bold;}
 .content_area p.button a{font-size: 28px; text-decoration: none; color: white;}
 
-#content2 {width: 100%; height: 1390px; background-color: #eeeeee;}
-.block_area_1 {position: relative; width: 90%; text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
+#content2 {width: 100%; background-color: #eeeeee;}
+#content2_area{width: 90%; margin:0 auto; overflow: hidden;}
+.block_area_1 ul{overflow: hidden; padding-left:0 !important;}
+.block_area_1 {position: relative; clear: both; margin-left:auto; margin-right: auto;}
 .block_area_1 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
 .block_area_1 h3 span{margin-left: 15px; font-size: 14px;}
 
-.block_area_1 li{float:left; list-style: none;}
-.block_area_1 li a{text-align: center; width: 250px; height: 100px; display: block; margin-left: 24px; padding:20px 20px; border-radius: 15px; background-color:white;}
+.block_area_1 li{float:left; width:24.6%; margin-right:5px; list-style: none;}
+.block_area_1 li a{text-align: center; height: 100px; display: block; padding:20px 20px; border-radius: 15px; background-color:white;}
 .block_area_1 li a span{display: block; text-align: center; font-size: 14px; }
 .block_area_1 img{width: 207px; height: 38px;}
 .block_area_1 p{position: absolute; top : 15px; right: 0;}
 .block_area_1 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff;}
 
-.block_area_2{position: relative; clear: both; margin-left: 70px;}
+.block_area_2 ul{overflow: hidden; padding-left:0 !important;}
+.block_area_2{position: relative; clear: both; margin-left:auto; margin-right: auto;}
 .block_area_2 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
 .block_area_2 p{position: absolute; top:15px; right: 10PX;}
 .block_area_2 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff; margin-right: 60px;}
 
-.block_area_2 li{float: left; list-style: none;}
-.block_area_2 li a{text-align: center; width: 250px; height: 100px; display: block; margin-left: 24px; padding:20px 20px; border-radius: 15px; background-color:white;}
+.block_area_2 li{float: left; width:24.6%; margin-right:5px; list-style: none;}
+.block_area_2 li a{text-align: center; height: 100px; display: block; padding:20px 20px; border-radius: 15px; background-color:white;}
 .block_area_2 li a span{display: block; text-align: center; font-size: 14px; }
 .block_area_2 img{width: 207px; height: 38px;}
 
-.block_area_3{position: relative; clear: both; margin-left: 70px;}
+.block_area_3 ul{overflow: hidden; padding-left: 0 !important;}
+.block_area_3{float:left; width:48%; margin-left:auto; margin-right: auto;}
 .block_area_3 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
 .block_area_3 p{position: absolute; top:15px; right: 10PX;}
 .block_area_3 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff; margin-right: 60px;}
 
-.block_area_3 li{float: left; list-style: none; width: 295px;}
+.block_area_3 li{float: left; list-style: none; width: 295px; margin-bottom:18px;}
 .block_area_3 li a{display: block; margin-left: 24px; padding:30px 30px; border-radius: 15px; background-color:#333333;}
 .block_area_3 span.boxText1{display: block; text-align:left; color: white; font-size: 17px; padding-bottom: 15px;}
 .block_area_3 span.boxText2{display: block; text-align:left; color: white; font-size: 22px; padding-bottom: 20px;}
 .block_area_3 span.boxText3{display: block; text-align:left; color: white; font-size: 15px;}
 
-.block_area_4{position: relative; clear: both; margin-left: 70px;}
+.block_area_4 ul{overflow: hidden; padding-left: 0 !important;}
+.block_area_4{float:right; width:48%; margin-left:auto; margin-right: auto;}
 .block_area_4 h3{margin-top: 0px; font-size: 24px; padding-top: 40px; text-align:left;}
 .block_area_4 p{position: absolute; top:15px; right: 10PX;}
 .block_area_4 p a{display: block; width: 100px; padding:5px 10px; text-align: center; border: 1px solid #ddd; background-color: #fff; margin-right: 60px;}
 
-.block_area_4 li{float: left; list-style: none; width: 295px;}
+.block_area_4 li{float: left; list-style: none; width: 295px; margin-bottom:18px;}
 .block_area_4 li a{display: block; margin-left: 24px; padding:30px 30px; border-radius: 15px; background-color:#333333;}
 .block_area_4 span.boxText1{display: block; text-align:left; color: white; font-size: 17px; padding-bottom: 15px;}
 .block_area_4 span.boxText2{display: block; text-align:left; color: white; font-size: 22px; padding-bottom: 20px;}
 .block_area_4 span.boxText3{display: block; text-align:left; color: white; font-size: 15px;}
 
-.company span{position: absolute; left:550px; margin-top: 300px; }
-.company span.company_main{display: block; text-align: center; color: #ff6633; font-size: 36px;}
+.company{clear: both; text-align: center;}
+.company span.company_main{padding-top: 80px;display: block; color: #ff6633; font-size: 36px; padding-bottom: 33px;}
+.company span.company_text{padding-top: 33px; padding-bottom: 33px;}
 
 
 #container_end{width: 100%;}
 #content_end {width: 100%; background-color: #003366;}
-.content_end_area {width: 90%; height: 300px; text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
+.content_end_area {width: 90%; text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
 .content_end_area p{text-align:left; color: white; font-size: 14px; padding-top: 45px; padding-bottom: 35px;}
 .content_end_area img{width: 65px; height: 65px;}
