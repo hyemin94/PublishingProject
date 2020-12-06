@@ -81,3 +81,36 @@ body{font-family: "Note sans KR", sans-serif !important; margin: 0;}
 .content_end_area {width: 90%; text-align:left; margin-left: auto; margin-top: 0; margin-bottom: 0; margin-right: auto;}
 .content_end_area p{float:left; text-align:left; color: white; font-size: 14px; padding-top: 45px; padding-bottom: 35px;}
 .content_end_area img{width: 65px; height: 65px; float: right; padding-top: 100px;}
+
+.menu_m{display: none;}
+.seach_m{display: none;}
+.left_btn{display: none;}
+.right_btn{display: none;}
+
+
+@media (max-width: 575.98px) {
+    img{max-width: 100%;}
+    .menu{display: none;}
+    .login{display: none;}
+    .menu_m{display: block; float:left; width: 25px; height: 25px; margin-left:10px; margin-top: 20px;}
+    .logo{width: 145px; height: 25px; margin-top: 20px; margin-left: 25%; float: left;}
+    .seach_m{display: block; float : right; width: 25px; height: 25px; margin-top: 20px;}
+
+    #content {width: 100%; background-color: #0000CC; height: 200px;}
+    .content_area p.text1{font-size: 12px; padding-top : 30px;}
+    .content_area p.text2{font-size: 27px; margin-top: 10px; margin-bottom: 10px;}
+    .content_area p.left_btn{display: block; float: left; width: 15px; height: 15px;}
+    .content_area p.right_btn{display: block; float: right; width: 15px; height: 15px;}
+    .content_area p.button a{font-size: 13px; margin-top: 50px;}
+
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 991.98px) { 
+
+}
+
+@media (max-width: 1199.98px) { }
